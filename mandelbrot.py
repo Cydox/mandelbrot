@@ -2,9 +2,6 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 
-N0 = 50
-m = 2.0
-
 def loadSettings(filename):
 	f = open(filename, "r")
 	lines = f.readlines()
